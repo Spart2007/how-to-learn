@@ -1,11 +1,7 @@
-   .page {
+.page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 .header {
@@ -95,19 +91,19 @@
   font-weight: normal;
 }
 .two-column__main-text {
- flex-basis: 80%;
- min-width: 784px;
- justify-content: space-between;
- display: flex;
- flex-direction: column;
+  flex-basis: 80%;
+  min-width: 784px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
 }
 .two-column__paragraph {
- line-height: 34px;
- font-size: 24px;
- font-weight: normal;
- margin-bottom: 30px;
- margin-top: 30px;
- margin-left: auto;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: auto;
 }
 .two-column__span-accent {
   line-height: 34px;
