@@ -1,0 +1,12 @@
+.table {
+  width: 1100px;
+  margin-right: auto;
+  margin-left: auto; 
+  }
+.table_theme_dark {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  z-index: 1;
+  }

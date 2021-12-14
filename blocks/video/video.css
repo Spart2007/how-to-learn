@@ -1,17 +1,4 @@
 .video {
-    overflow:hidden;
-    background: linear-gradient(to bottom,#fff 88%,#f2f2f2 30%);
-  }
-.video__iframes {
-    margin-top: 50px;
-    width:1050px;
-    display:flex;
-    justify-content: space-between;
-    margin-left:auto;
-    margin-right:auto;
-    overflow:hidden;
-  }
-.video__iframe {
-    display: flex;
-    flex-direction: row;
+  overflow:hidden;
+  background: linear-gradient(to bottom,#fff 88%,#f2f2f2 30%);
   }

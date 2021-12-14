@@ -1,0 +1,13 @@
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+  }
+
+.table__cell_theme_dark {
+  color: white;
+  width: 200px;
+  margin-top: 80px;
+  margin-right: auto;
+  flex-direction: row;
+  justify-content:space-evenly;
+  }
