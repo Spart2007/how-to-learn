@@ -1,8 +1,8 @@
-  @keyframes rotation {
-    from {
+@keyframes rotation {
+  from {
       transform: rotate(0deg);
     }
-    to {
+  to {
       transform: rotate(360deg);
     }
   }
@@ -17,6 +17,7 @@ a:hover {
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -62,7 +63,6 @@ a:hover {
 .header__link {
   color: #2f80ed;
   text-decoration: none;
-  opacity: ;
 }
 .header__main-illustration {
   width: 765px;
@@ -86,9 +86,6 @@ a:hover {
   max-height: 100%;
   animation: rotation 20s linear infinite;
 }
-
-
-
 
 .description {
   margin-top: 100px;
@@ -192,15 +189,21 @@ a:hover {
   flex-direction: row;
   }
 .oakley {
-    display: flex;
-    justify-content: center;
-    padding-top:100px; 
-    background-color:#F2F2F2;
+  display: flex;
+  justify-content: center;
+  padding-top:100px; 
+  background-color:#F2F2F2;
 }
 .digits {
   margin-top: 100px;
   margin-bottom: 100px;
   position: relative;
+  }
+.digits__table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative; 
   }
 .section-title {
   top: 0;
@@ -236,12 +239,7 @@ a:hover {
   margin-right: auto;
   margin-left: auto; 
  }
-.digits__table {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  position: relative; 
- }
+
 .table__cell {
   width: 250px;
   margin-top: 60px;
@@ -261,6 +259,7 @@ a:hover {
   margin-top: 0;
   padding-top: 20px;
 }
+
 .feynman {
   min-height: 890px;
   display: flex;
@@ -410,7 +409,6 @@ a:hover {
   width: 16px;
   height: 16px;
 }
-
 .khan {
   background-color:#F2F2F2;
   padding-top: 105px;
