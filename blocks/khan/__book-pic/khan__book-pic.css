@@ -2,11 +2,6 @@
   height: 608px;
   width: 620px;
   margin-right: 48px;
-  }
-.khan__buy-link {
-  line-height: 42px;
-  font-size: 30px;
-  font-weight: normal;
-  text-decoration: none;
-  color: #2f80ed;
+  object-fit: cover;
+  object-position: 100% 10%;
   }

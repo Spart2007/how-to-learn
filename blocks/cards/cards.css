@@ -1,4 +1,5 @@
 .cards {
+  margin-top: 60px;
   margin-left:auto;
   margin-right:auto;
   width: 920px;
@@ -6,6 +7,5 @@
   display:grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-row-gap: 60px;
   grid-column-gap: 100px;
-   }
+  }

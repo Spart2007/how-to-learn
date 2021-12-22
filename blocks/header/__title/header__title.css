@@ -7,4 +7,5 @@
     font-weight: bold;
     margin-top: auto;
     margin-bottom: auto;
+    z-index: 2;
   }

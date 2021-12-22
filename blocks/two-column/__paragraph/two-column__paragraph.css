@@ -6,3 +6,6 @@
   margin-bottom: 30px;
   margin-left: auto;
   }
+.two-column__paragraph:last-child{
+  margin-bottom: 0;
+  }
