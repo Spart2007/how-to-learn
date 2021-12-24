@@ -50,7 +50,7 @@
   @import url(blocks/table/__cell/table__cell.css);
   @import url(blocks/table/__heading/table__heading.css);
   @import url(blocks/table/__text/table__text.css);
-  @import url(blocks/table/__cell/_theme/cell_theme-dark.css);
+  @import url(blocks/table/__cell/_theme/cell_theme_dark.css);
   @import url(blocks/table/__cell/_theme/table__cell_theme_dark.css);
 
   @import url(blocks/feynman/feynman.css);
